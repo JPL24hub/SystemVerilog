@@ -1,5 +1,3 @@
-vhdl/1_PhD_projects/cold_wallet/Ethereum_cold_wallet/eth_ND_HD/eth_nd_hd/eth_nd_hd.cache
-vhdl/1_PhD_projects/cold_wallet/Ethereum_cold_wallet/eth_ND_HD/eth_nd_hd/eth_nd_hd.sim/sim_1/behav/xsim/xsim.dir
 *.cache
 *.hw
 *.ioplanning
@@ -31,8 +29,6 @@ vhdl/1_PhD_projects/cold_wallet/Ethereum_cold_wallet/eth_ND_HD/eth_nd_hd/eth_nd_
 *.hwdef
 *.protoinst
 *.mpf
-project_database
-ETH_BLOCKS/
+*.tmp
 *ip_repo
 *.xsa
-*.tmp
