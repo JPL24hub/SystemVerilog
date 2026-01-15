@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_non_rest_div_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_non_rest_div" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="20.875000 us"></ZoomEndTime>
+      <Cursor1Time time="10.335000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="189"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/tb_non_rest_div/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_non_rest_div/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_non_rest_div/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_non_rest_div/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_non_rest_div/dividend" type="array">
+      <obj_property name="ElementShortName">dividend[255:0]</obj_property>
+      <obj_property name="ObjectShortName">dividend[255:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_non_rest_div/divisor" type="array">
+      <obj_property name="ElementShortName">divisor[255:0]</obj_property>
+      <obj_property name="ObjectShortName">divisor[255:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_non_rest_div/remainder" type="array">
+      <obj_property name="ElementShortName">remainder[255:0]</obj_property>
+      <obj_property name="ObjectShortName">remainder[255:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_non_rest_div/quotient" type="array">
+      <obj_property name="ElementShortName">quotient[255:0]</obj_property>
+      <obj_property name="ObjectShortName">quotient[255:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_non_rest_div/WIDTH" type="array">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group67" type="group">
+      <obj_property name="label">NRD</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_non_rest_div/dut/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/dividend" type="array">
+         <obj_property name="ElementShortName">dividend[255:0]</obj_property>
+         <obj_property name="ObjectShortName">dividend[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/divisor" type="array">
+         <obj_property name="ElementShortName">divisor[255:0]</obj_property>
+         <obj_property name="ObjectShortName">divisor[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/start" type="logic">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/ready" type="logic">
+         <obj_property name="ElementShortName">ready</obj_property>
+         <obj_property name="ObjectShortName">ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/remainder" type="array">
+         <obj_property name="ElementShortName">remainder[255:0]</obj_property>
+         <obj_property name="ObjectShortName">remainder[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/quotient" type="array">
+         <obj_property name="ElementShortName">quotient[255:0]</obj_property>
+         <obj_property name="ObjectShortName">quotient[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/regA" type="array">
+         <obj_property name="ElementShortName">regA[255:0]</obj_property>
+         <obj_property name="ObjectShortName">regA[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/regA_nxt" type="array">
+         <obj_property name="ElementShortName">regA_nxt[255:0]</obj_property>
+         <obj_property name="ObjectShortName">regA_nxt[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/regQ" type="array">
+         <obj_property name="ElementShortName">regQ[255:0]</obj_property>
+         <obj_property name="ObjectShortName">regQ[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/regQ_nxt" type="array">
+         <obj_property name="ElementShortName">regQ_nxt[255:0]</obj_property>
+         <obj_property name="ObjectShortName">regQ_nxt[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/regM" type="array">
+         <obj_property name="ElementShortName">regM[255:0]</obj_property>
+         <obj_property name="ObjectShortName">regM[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/regM_nxt" type="array">
+         <obj_property name="ElementShortName">regM_nxt[255:0]</obj_property>
+         <obj_property name="ObjectShortName">regM_nxt[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/sigALU" type="array">
+         <obj_property name="ElementShortName">sigALU[255:0]</obj_property>
+         <obj_property name="ObjectShortName">sigALU[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/sigLS" type="array">
+         <obj_property name="ElementShortName">sigLS[255:0]</obj_property>
+         <obj_property name="ObjectShortName">sigLS[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/selM" type="logic">
+         <obj_property name="ElementShortName">selM</obj_property>
+         <obj_property name="ObjectShortName">selM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/op" type="logic">
+         <obj_property name="ElementShortName">op</obj_property>
+         <obj_property name="ObjectShortName">op</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/enCntr" type="logic">
+         <obj_property name="ElementShortName">enCntr</obj_property>
+         <obj_property name="ObjectShortName">enCntr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/selRmr" type="logic">
+         <obj_property name="ElementShortName">selRmr</obj_property>
+         <obj_property name="ObjectShortName">selRmr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/selA" type="array">
+         <obj_property name="ElementShortName">selA[1:0]</obj_property>
+         <obj_property name="ObjectShortName">selA[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/selQnt" type="array">
+         <obj_property name="ElementShortName">selQnt[1:0]</obj_property>
+         <obj_property name="ObjectShortName">selQnt[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/selQ" type="array">
+         <obj_property name="ElementShortName">selQ[2:0]</obj_property>
+         <obj_property name="ObjectShortName">selQ[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/counter" type="array">
+         <obj_property name="ElementShortName">counter[31:0]</obj_property>
+         <obj_property name="ObjectShortName">counter[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/counter_nxt" type="array">
+         <obj_property name="ElementShortName">counter_nxt[31:0]</obj_property>
+         <obj_property name="ObjectShortName">counter_nxt[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/reg_state" type="array">
+         <obj_property name="ElementShortName">reg_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/WIDTH" type="array">
+         <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/ZEROS" type="array">
+         <obj_property name="ElementShortName">ZEROS[255:0]</obj_property>
+         <obj_property name="ObjectShortName">ZEROS[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_non_rest_div/dut/ONE" type="array">
+         <obj_property name="ElementShortName">ONE[255:0]</obj_property>
+         <obj_property name="ObjectShortName">ONE[255:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
